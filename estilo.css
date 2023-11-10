@@ -1,0 +1,87 @@
+html {
+    cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+}
+body {
+    background-image: url(imagens/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.inicio {
+    width: 100px;
+    height: 150px;
+    margin-top: 300px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
+
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3 {
+    width: 90px;
+    height: 90px;
+}
+
+.mosquito4 {
+    width: 100px;
+    height: 100px;
+    margin-left: 700px;
+}
+
+.ladoA {
+    transform: scaleX(1);
+}
+
+.ladoB {
+    transform: scaleX(-1);
+}
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+}
+
+.vidas {
+float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.game {
+    margin-top: 150px;
+}
+
+.game-victory {
+    height: 100px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.mosquito-morto {
+    height: 300px;
+    margin-left: 900px;
+}
+
+.btn {
+    width: 400px;
+    height: 50px;
+}
+

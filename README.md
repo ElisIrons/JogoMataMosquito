@@ -1,4 +1,4 @@
-# Jogo Mata Mosquito 🦟
+# Jogo Mata Mosquito 🎯🦟
 
 Jogo simples desenvolvido com HTML, CSS e JavaScript. Este projeto foi realizado como parte do curso de Desenvolvimento Web da Udemy ministrado pelo professor Jorge Sant Ana.
 

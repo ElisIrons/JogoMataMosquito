@@ -1,0 +1,15 @@
+{
+  "name": "jogomatamosquito",
+  "version": "1.0.0",
+  "description": "Jogo simples com HTML, CSS e JavaScript Realizado no curso Desenvolvimento Web da Udemy com o professor Jorge Sant Ana.",
+  "main": "jogo.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.47.2"
+  }
+}

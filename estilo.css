@@ -1,87 +1,166 @@
 html {
-    cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+  cursor: url(imagens/mata_mosquito.png) 30 30, auto;
 }
 body {
-    background-image: url(imagens/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+  background-image: url(imagens/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .inicio {
-    width: 100px;
-    height: 150px;
-    margin-top: 300px;
-    margin-left: 600px;
-    margin-bottom: 100px;
+  width: 100px;
+  height: 150px;
+  margin-top: 300px;
+  margin-left: 600px;
+  margin-bottom: 100px;
 }
 
 .mosquito1 {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 .mosquito2 {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .mosquito3 {
-    width: 90px;
-    height: 90px;
+  width: 90px;
+  height: 90px;
 }
 
 .mosquito4 {
-    width: 100px;
-    height: 100px;
-    margin-left: 700px;
-}
-
-.ladoA {
-    transform: scaleX(1);
-}
-
-.ladoB {
-    transform: scaleX(-1);
-}
-
-.painel {
-    position: absolute;
-    width: 190px;
-    padding: 10px;
-    left: 0px;
-    bottom: 0px;
-    border-top: solid 1px #fff;
-    background-color: #fff;
-    opacity: 0.7;
-}
-
-.vidas {
-float: left;
-}
-
-.cronometro {
-    float: left;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.game {
-    margin-top: 150px;
-}
-
-.game-victory {
-    height: 100px;
-    margin-top: 300px;
-    margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+  margin-left: 700px;
 }
 
 .mosquito-morto {
-    height: 300px;
-    margin-left: 900px;
+  height: 100px;
+  margin-left: 600px;
+}
+
+.ladoA {
+  transform: scaleX(1);
+}
+
+.ladoB {
+  transform: scaleX(-1);
+}
+
+.painel {
+  position: absolute;
+  width: 190px;
+  padding: 10px;
+  left: 0px;
+  bottom: 0px;
+  border-top: solid 1px #fff;
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.vidas {
+  float: left;
+}
+
+.cronometro {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.game {
+  margin-top: 150px;
+}
+
+.game-victory {
+  height: 100px;
+  margin-top: 300px;
+  margin-bottom: 50px;
 }
 
 .btn {
-    width: 400px;
-    height: 50px;
+  width: 400px;
+  height: 50px;
 }
 
+@media screen and (max-width: 1250px) {
+  body {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+
+  body::before {
+    display: none;
+  }
+
+  .container {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 16px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .mosquito {
+    width: 50px;
+    height: 50px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cronometro,
+  .nivel {
+    font-size: 20px;
+    margin: 10px 5px;
+  }
+
+  #campo-jogo {
+    width: 100%;
+    height: calc(100vh - 150px);
+    position: relative;
+    z-index: 1;
+  }
+
+  .container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  .inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 0;
+  }
+
+  .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+}

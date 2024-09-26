@@ -23,7 +23,7 @@ O Jogo Mata Mosquito é um jogo onde o objetivo é clicar nos mosquitos que apar
 
 Você pode acessar e jogar **Mata Mosquito** diretamente clicando no link abaixo:
 
-👉 [Acessar Jogo Mata Mosquito](https://elisirons.github.io/JogoMataMosquito/game-over.html)
+👉 [Acessar Jogo Mata Mosquito](https://elisirons.github.io/JogoMataMosquito/index.html)
 
 ## Testes Automatizados
 
